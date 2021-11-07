@@ -1,0 +1,68 @@
+<style>
+title{
+	
+}
+body{
+	background: beige;
+}
+h1{
+	color:black;
+	border-collapse: collapse;
+	text-align: center;
+	font-family:Papyrus;
+	text-shadow: 4px 4px 8px white;
+	font-size:100px;
+}
+h2{
+	text-align: center;
+	border: double;
+	
+}
+.catalog1 {
+  background-color:pink;
+  color: beige;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  text-shadow: 2px 2px 5px white;
+  font-size:60px;
+}
+
+.catalog{
+  position: relative;
+  display: inline-block;
+}
+
+.link {
+  display: none;
+  position: absolute;
+  background-color: pink;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.link a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size:50px;
+}
+
+.link a:hover {background-color: beige}
+
+.catalog:hover .link {
+  display: block;
+}
+
+.catalog:hover .dropbtn {
+  background-color: beige;
+}
+.column {
+  float: right;
+  width: 40%;
+  border: double;
+}
+</style>

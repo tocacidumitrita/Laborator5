@@ -1,0 +1,52 @@
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  background: pink;
+  color:black;
+  font-size:30px;
+  
+  
+}
+h1{
+	color:pink;
+	border-collapse: collapse;
+	text-align:center;
+	font-family:Lucida Handwriting;
+	text-shadow: 3px 3px 6px white;
+}
+h2{
+	text-align:center;
+	color:pink;
+	font-family:Lucida Handwriting;
+	text-shadow: 3px 3px 6px white;
+}
+p {
+	color: pink;
+	font-family:Papyrus;
+	text-indent: 200px;
+	font-size:30px;
+}
+h3{
+	
+	color: pink;
+	font-family:Papyrus;
+	font-size:30px;
+}
+body {
+	background:grey;
+}
+ol {
+	color: black;
+	backgroung: pink;
+	font-size:30px;
+}
+img{
+	margin: 25px 150px 75px 500px;
+	border-radius: 400px;
+	opacity:0.4;
+}
+img:hover{
+	opacity: 1.0;
+}
+</style>
