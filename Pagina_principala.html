@@ -15,8 +15,7 @@ h2 {text-aling:cen ter;
 	font-family: Lucida Handwriting;} 
 p{ color:red;
    font-family: Papyrus;}
-#citat { background: green;
-		color: orange;}
+
 body { background: yellow;}
 #lista {background: green;}
 #hobby { background: green;}
@@ -29,13 +28,30 @@ img { margin: 25px 100px 75px 700px;
 }
 
 </style>
+<script>
+function myFunction() {
+  document.getElementById("nume").innerHTML = "Ing. Tocaci Dumitrita";
+  document.getElementById("1").innerHTML = "Cursuri de perfectionare";
+  document.getElementById("2").innerHTML = "Internship in cadrul unei firme";
+  document.getElementById("3").innerHTML = "Dezvolarea unor noi abilititati";
+  document.getElementById("poza").src="poza2.jpg";
+  document.getElementById("nume").style.fontSize="50px";
+  document.getElementById("nume").style.color="pink";
+  document.getElementById("citat").style.background="pink";
+  
+}
+  
+
+ 
+</script>
 <title>  Laborator 5 </title>
 </head>
 <body>
 
 <h1><i><u><center>Pagina principala</center></i></u></h1>
-<h2>Tocaci Dumitrita_Sarah</h2>
-<img src="poza1.jpg"  width="370" height="400">
+<h2 id="nume">Tocaci Dumitrita_Sarah</h2>
+<img id="poza" src="poza1.jpg"  width="370" height="400" >
+<button type="button" onclick="myFunction()">Alta viata</button>
 <p id="citat">Citat reprezentativ : ”Școala trebuie să urmărească tot timpul ca tânărul sa părăsească băncile ei nu ca specialist, ci ca personalitate armoniasă”-Albert Einstein "</p>
 <p>Date de contact: dumitrita_sarah02@yahoo.com <a href="https://ro.yahoo.com/">link email</a>    0743 xxx xxx </p>
 <p>Așteptări de la facultate: Să mă specializez în domeniul telecomunicațiilor. </p>
@@ -67,7 +83,7 @@ img { margin: 25px 100px 75px 700px;
 
 <p id="hobby"> Hobby-uri: </p>
 <ol>
-<li> Plimbare <li> Citit <li> Muzica 
+<li id="1"> Plimbare <li id="2"> Citit <li id="3"> Muzica 
 </ol>
 
 <a href="file:///C:/Users/student/Desktop/Tocaci%20Dumitrita/Pagina%201.html"> Pagina 1 - Toader Oana </a></p>
